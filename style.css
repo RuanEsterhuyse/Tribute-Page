@@ -1,0 +1,72 @@
+html,
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  min-width: 250px;
+  text-align: center;
+  background-color: black;
+  color: #bd4b4b;
+  margin: auto;
+}
+
+#main {
+  /* background: #1a1e26; */
+  min-width: 250px;
+  padding-top: 0.5em;
+}
+
+#img-div {
+  background: #efb7b7;
+  border: 5px solid #bd4b4b;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border: solid 5px white;
+}
+
+#title {
+  /* text-align: center; */
+
+  text-transform: uppercase;
+}
+
+#img-caption {
+  /* text-align: center; */
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#headline {
+  /* text-align: center; */
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+#timeline {
+  max-width: 60vw;
+  margin: auto;
+  text-align: justify;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 50px;
+}
+
+.timeline-container {
+  position: relative;
+  left: 400px;
+}
+
+#tribute-link {
+  color: #bd4b4b;
+  margin-top: 50px;
+  padding: 100px;
+  font-size: 20px;
+}
