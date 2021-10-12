@@ -9,3 +9,5 @@ openBtn.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   modalContainer.classList.remove("show");
 });
+
+

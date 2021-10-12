@@ -123,3 +123,8 @@ button {
   pointer-events: auto;
   opacity: 1;
 }
+
+#image {
+  width: 200px;
+  height: 200px;
+}
