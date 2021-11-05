@@ -30,6 +30,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+
   display: block;
   margin: auto;
   border: solid 5px white;
@@ -122,9 +123,4 @@ button {
 .modal-container.show {
   pointer-events: auto;
   opacity: 1;
-}
-
-#image {
-  width: 200px;
-  height: 200px;
 }
