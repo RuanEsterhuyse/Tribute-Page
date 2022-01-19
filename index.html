@@ -11,10 +11,11 @@
     <title>Tribute Page</title>
 </head>
 <body>
-<div id="main">
-  <h1 id="title">Chris Farley Tribute Page</h1>
-
+<header class ="header">
+ <div id="main">
+ 
   <div id="img-div">
+    <h1 id="title">Chris Farley Tribute Page</h1>
     <figure>
       <img src="image.jpg" alt="profile picture of Chris Farley" id="image";>
     </figure>
@@ -22,26 +23,16 @@
 
     <div id="tribute-info">
       <h2 id="headline">Filmography</h2>
-      
-      <section class="timeline-container">
-      <div id="timeline">
-        
-        <p><strong>1992</strong> - Security Guard in Wayne's World</p> 
-        <div><button class="open">More Information</button>
+  </div>
 
-          <!-- Modal Container -->
-          <section class="modal-container">
-            <div class="modal">
-              <h1>Wayne's World
-              </h1>
-              <img src="securitypic.jpg" alt="profile picture of Chris Farley" id="image";>
-              <p>
-                Wayne's World is a 1992 American comedy film directed by Penelope Spheeris. It was produced by Lorne Michaels and written by Mike Myers and Bonnie and Terry Turner. Based on the Saturday Night Live sketch Wayne's World, it stars Myers in his feature film debut as Wayne Campbell and Dana Carvey as Garth Algar, a pair of rock music fans who broadcast a public-access television show. It also features Tia Carrere, Rob Lowe, Lara Flynn Boyle, Brian Doyle-Murray, Chris Farley, Ed O'Neill, Ione Skye, Meat Loaf and Alice Cooper in supporting roles.
-              </p>
-              <button class="modal-btn">Close</button>
-            </div>
-          </section>
-              
+
+  <section class="timeline-container">
+    <div id="timeline">
+      
+      <p><strong>1992</strong> - Security Guard in Wayne's World</p> 
+      
+      <div><button class="open">More Information</button>
+
         <p><strong>1993</strong> - Ronnie the Mecahanic in Coneheads</p> 
 
         
@@ -64,21 +55,34 @@
        
         <p><strong>1998</strong> - Jimmy No-Nose in Dirty Work</p>
         
-      
+        <a href="https://en.wikipedia.org/wiki/Chris_Farley" id="tribute-link" target="_blank">Read more about Chris Farley</a>
       </section>
 
+</header>
+
+
+
+
+          <!-- Modal Container -->
+          <section class="modal-container">
+            <div class="modal">
+              <h1>Wayne's World
+              </h1>
+              <img src="securitypic.jpg" alt="profile picture of Chris Farley" id="image";>
+              <p>
+                Wayne's World is a 1992 American comedy film directed by Penelope Spheeris. It was produced by Lorne Michaels and written by Mike Myers and Bonnie and Terry Turner. Based on the Saturday Night Live sketch Wayne's World, it stars Myers in his feature film debut as Wayne Campbell and Dana Carvey as Garth Algar, a pair of rock music fans who broadcast a public-access television show. It also features Tia Carrere, Rob Lowe, Lara Flynn Boyle, Brian Doyle-Murray, Chris Farley, Ed O'Neill, Ione Skye, Meat Loaf and Alice Cooper in supporting roles.
+              </p>
+              <button class="modal-btn">Close</button>
+            </div>
+          </section>
+              
+       
+
       
 
-    </div>
-    <a href="https://en.wikipedia.org/wiki/Chris_Farley" id="tribute-link" target="_blank">Read more about Chris Farley</a>
-
-  </div>
+    
 
 
-  </div>
-
-
-</div>
     
 <script src="script.js"></script>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

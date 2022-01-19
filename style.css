@@ -1,22 +1,36 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html,
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
-  min-width: 250px;
-  text-align: center;
+  font-size: 1.6rem;
+  /* min-width: 250px; */
+  /* text-align: center; */
   background-color: black;
   color: #bd4b4b;
-  margin: auto;
+  /* margin: auto; */
+}
+
+.header {
+  margin: 4rem auto;
+  max-width: 1400rem;
 }
 
 #main {
-  /* background: #1a1e26; */
-  min-width: 250px;
-  padding-top: 0.5em;
+  background: #000000;
+  max-width: 1300rem;
+  margin: 4rem 4rem;
+  padding: 4rem;
+  /* background-image: url("tribute6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 #img-div {
@@ -29,39 +43,39 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
-
+  /* height: auto; */
   display: block;
-  margin: auto;
+  margin: 2rem auto;
   border: solid 5px white;
 }
 
 #title {
-  /* text-align: center; */
+  text-align: center;
   /* text-shadow: 5px 5px 10px #efb7b7; */
   text-transform: uppercase;
 }
 
 #img-caption {
-  /* text-align: center; */
+  text-align: center;
   font-family: "Josefin Sans", sans-serif;
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
 #headline {
-  /* text-align: center; */
+  text-align: center;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 #timeline {
-  max-width: 60vw;
+  /* max-width: 60vw; */
   /* margin: auto;
   text-align: justify; */
   font-family: "Josefin Sans", sans-serif;
   line-height: 50px;
+  margin: 6rem;
 }
 
 .timeline-container {
@@ -71,8 +85,8 @@ img {
 
 #tribute-link {
   color: #bd4b4b;
-  margin-top: 50px;
-  padding: 100px;
+  /* margin-top: 50px;
+  padding: 100px; */
   font-size: 20px;
 }
 
@@ -97,15 +111,19 @@ button {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px 25px;
-  position: relative;
-  bottom: 20px;
+}
+
+.open {
+  position: absolute;
+  right: 4rem;
+  top: 1rem;
 }
 
 .modal {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 30px 50px;
+  padding: 5rem;
   width: 600px;
   max-width: 100%;
   text-align: center;
@@ -118,6 +136,9 @@ button {
 .modal p {
   font-size: 14px;
   opacity: 0.7;
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .modal-container.show {
