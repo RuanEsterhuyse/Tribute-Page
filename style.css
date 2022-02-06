@@ -18,61 +18,64 @@ body {
 #main {
   background: #efb7b7;
   border: 5px solid #bd4b4b;
-  max-width: 130rem;
   margin: 5rem auto 5rem auto;
+  max-width: 120rem;
 }
 
 #img-div {
   max-width: 100%;
   background: #efb7b7;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding: 2rem;
 }
 
 #image {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 2rem auto;
+  margin: auto;
   border: solid 5px white;
 }
 
 #title {
   text-align: center;
   text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 #img-caption {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  position: relative;
 }
 
 #headline {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  margin-top: 1.5rem;
+  margin-top: 4rem;
+  font-size: 3rem;
 }
 
-.timeline-container {
-  position: relative;
-  max-width: 100%;
-}
 #timeline {
-  max-width: 100%;
-  margin: auto;
-  padding: 4rem;
-  text-align: center;
+  max-width: 450px;
+  text-align: left;
+  margin: 3rem auto 3rem auto;
   font-family: "Josefin Sans", sans-serif;
   line-height: 5rem;
+}
+
+p {
+  display: inline-block;
+  font-size: 2rem;
 }
 
 #tribute-link {
   color: #bd4b4b;
   font-size: 2rem;
+  display: block;
 }
 
 .modal-container {
@@ -99,34 +102,48 @@ button {
 }
 
 .open {
-  position: absolute;
-  right: 5rem;
-  top: 4rem;
+  display: inline-block;
+  position: relative;
 }
 
 .modal {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   padding: 5rem;
   width: 60rem;
   max-width: 100%;
   text-align: center;
 }
 
-.modal h1 {
-  margin: 0;
+.modal-btn {
+  margin-top: 4rem;
 }
 
+/* .modal h1 {
+  margin: 0;
+} */
+/* 
 .modal p {
   font-size: 1.4rem;
   opacity: 0.7;
   line-height: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
+} */
 
 .modal-container.show {
   pointer-events: auto;
   opacity: 1;
+}
+
+.modal img {
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 486px) {
+  #title {
+    font-size: 2rem;
+  }
 }
