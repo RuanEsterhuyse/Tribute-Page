@@ -137,13 +137,21 @@ button {
   opacity: 1;
 }
 
-.modal img {
-  width: 500px;
-  height: 500px;
+.modal-container h2 {
+  margin-bottom: 3rem;
+}
+
+#modal__image {
+  width: 50rem;
+  height: 400px;
 }
 
 @media (max-width: 486px) {
   #title {
     font-size: 2rem;
+  }
+
+  #timeline {
+    font-size: 1rem;
   }
 }
