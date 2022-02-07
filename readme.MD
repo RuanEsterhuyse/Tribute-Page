@@ -10,7 +10,7 @@ This is a solution to the [freeCodeCamp's Tribute Page project](https://www.free
 
 - HTML
 - CSS
-  -JavaScript
+- JavaScript
 
 ## Author
 
