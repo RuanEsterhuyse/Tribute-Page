@@ -1,4 +1,4 @@
-# freeCodeCAmp - Learn Responsive Web Design by Building a Tribute Page.
+# freeCodeCamp - Learn Responsive Web Design by Building a Tribute Page.
 
 This is a solution to the [freeCodeCamp's Tribute Page project](https://www.freecodecamp.org/).
 
@@ -6,14 +6,11 @@ This is a solution to the [freeCodeCamp's Tribute Page project](https://www.free
 
 ![](Tribute-Page-Screenshot.png)
 
-## My process
-
-### Built with
+### Built with:
 
 - HTML
 - CSS
-
-### What I learned
+  -JavaScript
 
 ## Author
 
